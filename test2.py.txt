@@ -1,0 +1,8 @@
+ciudad = str(input("Ingresa tu ciudad de nacimiento: "))
+age= int (input("Ingresa tu edad:  "))
+
+if(age >= 18):
+    #msg= "TIENE LA EDAD DE : " str(age) + " PUEDE VOTAR EN  " + city
+    print(f'TIENE LA EDAD {age} PUEDE VOTAR {ciudad}')
+else:
+    print("NOT EIEN LA EDAD")
