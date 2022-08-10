@@ -1,8 +1,0 @@
-ciudad = str(input("Ingresa tu ciudad de nacimiento: "))
-age= int (input("Ingresa tu edad:  "))
-
-if(age >= 18):
-    #msg= "TINE LA EDAD DE : " str(age) + " PUEDE VOTAR EN  " + ciudad
-    print(f'TIENE LA EDAD {age} PUEDE VOTAR {ciudad}')
-else:
-    print("NOT EIEN LA EDAD")
